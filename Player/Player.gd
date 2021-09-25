@@ -65,3 +65,7 @@ func get_rotation():
 	if Input.is_action_pressed("left"):
 		toReturn -= 1.0
 	return toReturn
+
+
+func _on_Timer_timeout():
+	pass # Replace with function body.
